@@ -1,0 +1,194 @@
+*
+{
+padding:0;
+margin:0px auto;
+font-family:Comic Sans MS;
+font-size:20px;
+}
+.file_type
+{
+display:inline;
+
+
+}
+body{
+
+background-repeat:no-repeat;
+background: url(Images/color.jpg) no-repeat center center fixed;
+
+}
+
+.txt{
+font-size:45px;
+
+}
+.logo1{
+
+width:100%; 
+height:100%;
+}
+.firstdiv{
+width:45%;
+height:250px;
+
+margin:25px;
+float:left;
+}
+
+.main_div{
+width: 1380px;
+height: 850px;
+margin: 0px auto;
+}
+
+
+body {margin:0;}
+
+
+@media only screen and (max-width: 480px) {
+.logo1{
+display: block;
+margin: 0px auto;
+width: 30%;
+}
+.firstdiv{
+height:250px;
+width: 90%;
+margin :0px auto;
+
+}
+.main_div{
+width: 100%;
+height: 850px;
+margin: 0px auto;
+}
+.firstdiv img{
+
+}
+}
+@media only screen and (max-width: 780px) {
+.file_type
+{
+display:block;
+}
+
+}
+
+@media only screen and (max-width: 680px) {
+.firstdiv{
+width:90%;
+height:250px;
+margin:33px;
+
+
+
+
+}
+.main_div{
+width: 100%;
+height: 850px;
+margin: 0px auto;
+}
+.logo1{
+width:100%; 
+height:100%;
+}
+
+}
+.s1
+{
+padding-top:15px;
+
+}
+
+#back
+{
+margin:auto;	
+position: relative;
+
+
+
+}
+#button
+{
+background-color: #4CAF50;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+
+}
+#button:hover
+{
+background-color: red;
+border: none;
+color: black;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+
+}
+.inner
+{
+display:table-cell;
+height: 100px;
+width: 100px;
+vertical-align: middle;
+}
+ul.topnav {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color:#C0C0C0;
+transition: 0.5s
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+display: inline-block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+transition: 0.3s;
+font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: #555;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+ul.topnav li:not(:first-child) {display: none;}
+ul.topnav li.icon {
+float: right;
+display: inline-block;
+}
+}
+
+@media screen and (max-width:680px) {
+ul.topnav.responsive {position: relative;}
+ul.topnav.responsive li.icon {
+position: absolute;
+right: 0;
+top: 0;
+}
+ul.topnav.responsive li {
+float: none;
+display: inline;
+}
+ul.topnav.responsive li a {
+display: block;
+text-align: left;
+}
